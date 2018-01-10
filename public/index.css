@@ -1,4 +1,62 @@
 /*Add your css code here*/
-div {
-  color: red;
+#big_wrapper {
+background-color: brown; font-family:
+ Garamond; border: 3px solid brown;
+  text-align: left; margin: 20px auto; font-size: 18px;
+}
+
+#big_wrapper #first_section h1, h3 {
+	text-align: center;
+}
+
+.top_header {
+  color: white; background-image: url(background-image.jpg); line-height: 2;
+ font-size: 22px; text-align: center; border: 1px solid  black;
+  padding: 20px;
+}
+#top_menu {
+  background: brown;
+}
+#top_menu li {
+	display: inline-block; margin: 0 15px;
+	list-style: none; padding: 3px;
+	font-style: bold; font-size: 16px; font-family: tahoma;
+	float: right;
+}
+
+.link_nav {
+color: blue;
+}
+#first_section {
+ padding: 20px; float: left; width: 550px; margin: 30px; /* 720px 780 left */
+ background-color: peachpuff;
+}
+
+#first_section li {
+	list-style: none;
+}
+
+#second_section {
+width: 550px; margin: 30px; float: right;
+	padding: 30px; background-color: peachpuff;
+}
+#second_section h2 {
+  text-align: center;
+}
+#first_section footer {
+  text-align: right;
+}
+#the_footer {
+	clear: both; text-align: center; padding: 20px;
+	border-top: 2px solid blue; background: chocolate;
+}
+
+#the_footer p {
+  text-align: right;
+}
+.obinna {
+  margin: 0 25px;
+}
+.link {
+color:  red;
 }
